@@ -11,12 +11,33 @@
 .left_header{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.chat_up{
+  font-size: 10px;
+}
+
+.chat_up a{
+color: deepskyblue;
+border: 1px solid lightblue;
+padding: 14px;
+text-decoration: none;
 }
 
 .left_bottom{
-  height: calc(100% - 100px);
+  height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .chat_title{
@@ -25,11 +46,14 @@
   flex-direction: column-reverse;
 }
 
-.left_bottom a{
-  color: white;
-  text-decoration: none;
+.chat_room {
+  padding: 20px 0 40px;
 }
 
+.chat_name a{
+  text-decoration: none;
+  color: white;
+}
 
 .chat{
   width: calc(100% - 300px);
