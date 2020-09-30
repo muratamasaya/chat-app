@@ -10,17 +10,26 @@
 
 .left_header{
   height: 100px;
-  width: 300px;
   padding: 0 20px;
-  background-color: #253141;
 }
 
 .left_bottom{
   height: calc(100% - 100px);
-  width: 300px;
-  padding:0 20px;
   background-color: #2f3e51;
+  padding: 0 20px;
 }
+
+.chat_title{
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.left_bottom a{
+  color: white;
+  text-decoration: none;
+}
+
 
 .chat{
   width: calc(100% - 300px);
@@ -29,21 +38,17 @@
 
 .chat_top{
   height: 100px;
-  width: 100%;
   padding: 0 40px;
-  background-color:#ffffff;
 }
 
 .chat_middle{
-  height: calc(100% - 190px);
-  width: 100%;
-  padding: 46px 40px 0;
+  height: calc(100% - 100px - 90px);
   background-color: #fafafa;
+  padding: 46px 40px 0;
 }
 
 .chat_bottom{
   height: 90px;
-  width: 100%;
-  padding: 20px 40px;
   background-color: #dddddd;
+  padding: 20px 40px;
 }
