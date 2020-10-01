@@ -12,20 +12,7 @@
 </div>
 
 <div class="chat_middle">
-<div class="message_box">
-<div class="message_daytime">
-<div class="messenger">
-Tom
-</div>
-<div class="daytime_post">
-2020/3/31(Wed) 12:43:30
-</div>
-</div>
-<div class="message_post">
-<div class="message_content">
-おはよう
-</div>
-</div>
+<%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f| %>
